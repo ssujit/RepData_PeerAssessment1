@@ -13,7 +13,7 @@ library(ggplot2)
 
 data <- read.table('activity.csv',sep = ",",header = TRUE, na.strings ="NA",colClasses = c('integer','Date','factor'))
 
-# missing value has been treated and
+# missing value has been treated and stored as a new dataframe
 new.data <- na.omit(data)
 ```
 
